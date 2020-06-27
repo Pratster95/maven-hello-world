@@ -96,7 +96,7 @@
           <configuration>
               <source>1.8</source>
               <target><copy file="${project.build.directory}/${project.artifactId}-${project.version}.jar"
-                                    todir="${user.home}/.m2/repository/${project.groupId}/$${project.artifactId}/${project.version}" /></target>
+                                    todir="${user.home}/.m2/repository/${project.groupId}/${project.artifactId}/${project.version}" /></target>
               <fork>true</fork>
               <!-- Add all the checkers you want to enable here -->
               <annotationProcessors>
